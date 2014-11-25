@@ -1,0 +1,32 @@
+@import "bourbon";
+@import "base/normalize";
+@import "fa/font-awesome";
+@import "base/base";
+@import "layout";
+// @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,400italic,900italic);
+
+/* ===========================
+ *  Theme Variables
+ * =========================== */
+
+$theme_color: #38393c;
+$accent_color: #dedede;
+
+/* ===========================
+ *  General Classes
+ * =========================== */
+
+.full-width {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.inline {
+  text-align: center;
+  li {
+    vertical-align: top;
+    display: inline-block;
+  }
+}
